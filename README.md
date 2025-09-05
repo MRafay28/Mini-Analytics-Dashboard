@@ -18,11 +18,3 @@ cd frontend
 cp .env.example .env  # optional; defaults to http://localhost:4000/api
 npm run dev
 ```
-
-## API Summary
-- POST `/api/posts` { title, content, author }
-- POST `/api/posts/:id/comments` { text, commenter }
-- GET `/api/posts` query: `page`, `limit`, `author`, `q`
-- GET `/api/analytics/top-authors`
-- GET `/api/analytics/top-commented`
-- GET `/api/analytics/posts-per-day`
